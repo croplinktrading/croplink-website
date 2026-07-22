@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Croplink Trading Company | Agricultural Commodities</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="#home" class="logo-link">
+    <img
+        src="croplink-logo.png"
+        alt="Croplink Trading logo"
+        class="logo"
+    >
+</a></h1>
+<button class="menu-button" aria-label="Open navigation menu">
+    ☰
+</button>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="home">
+        <h2>Connecting Crops to Opportunity</h2>
+
+        <p>
+            Croplink supplies quality agricultural commodities sourced
+            from trusted farming communities in Malawi.
+        </p>
+
+        <a href="#products">Explore Our Products</a>
+    </main>
+<section id="about" class="about-section">
+    <div class="section-heading">
+        <p class="section-label">About Croplink</p>
+        <h2>Built on Agriculture. Driven by Opportunity.</h2>
+    </div>
+
+    <div class="about-content">
+        <p>
+            Croplink is an agricultural trading company connecting
+            quality crops from Malawi with reliable local and
+            international markets.
+        </p>
+
+        <p>
+            We work across the agricultural supply chain, from sourcing
+            and quality control to storage, logistics and distribution.
+            Our goal is to build dependable partnerships while creating
+            greater opportunities for farming communities.
+        </p>
+    </div>
+</section>
+
+<section id="products" class="products-section">
+    <div class="section-heading">
+        <p class="section-label">Our Products</p>
+        <h2>Quality Agricultural Commodities</h2>
+
+        <p>
+            Croplink sources and supplies carefully selected crops
+            to meet the requirements of our customers.
+        </p>
+    </div>
+
+    <div class="product-grid">
+        <article class="product-card"><img
+    src="groundnuts.png"
+    alt="Croplink groundnuts"
+    class="product-image"
+>
+            <p class="product-number">01</p>
+            <h3>Groundnuts</h3>
+            <p>
+                Quality groundnuts prepared for processing,
+                distribution and export markets.
+            </p>
+        </article>
+
+        <article class="product-card"><img
+    src="soya-beans.png"
+    alt="Croplink soya beans"
+    class="product-image"
+>
+            <p class="product-number">02</p>
+            <h3>Soya Beans</h3>
+            <p>
+                Dependable supplies of soya beans sourced from
+                established agricultural communities.
+            </p>
+        </article>
+
+        <article class="product-card"><img
+    src="jugo-beans.png"
+    alt="Croplink jugo beans"
+    class="product-image"
+>
+            <p class="product-number">03</p>
+            <h3>Jugo Beans</h3>
+            <p>
+                Locally sourced jugo beans supplied with careful
+                attention to handling and quality.
+            </p>
+        </article>
+    </div>
+</section><section class="strengths-section">
+    <div class="section-heading">
+        <p class="section-label">Why Croplink</p>
+        <h2>Reliable Across the Supply Chain</h2>
+
+        <p>
+            We combine agricultural experience, careful handling and
+            dependable operations to serve our customers.
+        </p>
+    </div>
+
+    <div class="strengths-grid">
+        <article class="strength-item">
+            <span>01</span>
+            <div>
+                <h3>Trusted Sourcing</h3>
+                <p>
+                    We build relationships with farming communities
+                    and dependable agricultural suppliers.
+                </p>
+            </div>
+        </article>
+
+        <article class="strength-item">
+            <span>02</span>
+            <div>
+                <h3>Quality Control</h3>
+                <p>
+                    Crops are carefully handled, assessed and prepared
+                    according to customer requirements.
+                </p>
+            </div>
+        </article>
+
+        <article class="strength-item">
+            <span>03</span>
+            <div>
+                <h3>Storage and Logistics</h3>
+                <p>
+                    Our operational capabilities support efficient
+                    storage, transportation and distribution.
+                </p>
+            </div>
+        </article>
+    </div>
+</section>
+<section id="contact" class="contact-section">
+    <div class="contact-introduction">
+        <p class="section-label">Contact Croplink</p>
+        <h2>Let’s Build a Reliable Agricultural Partnership</h2>
+
+        <p>
+            Contact us to discuss product availability, sourcing,
+            distribution or other agricultural business opportunities.
+        </p>
+
+        <div class="contact-details">
+            <p><strong>Location</strong><br>Lilongwe, Malawi</p>
+            
+            <p><strong>Products</strong><br>Groundnuts, Soya Beans and Jugo Beans</p>
+        </div>
+    </div>
+<p
+    id="form-status"
+    class="form-status"
+    aria-live="polite"
+></p>
+    <form
+    id="contact-form"
+    class="contact-form"
+    action="https://formspree.io/f/xdaqlowe"
+    method="POST"
+>
+        <label for="name">Full Name</label>
+        <input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Your full name"
+    required
+>
+
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company" placeholder="Company name">
+
+        <label for="email">Email Address</label>
+        <input
+    type="email"
+    id="email"
+    name="email"
+    placeholder="name@company.com"
+    required
+>
+
+        <label for="message">How can we help?</label>
+       <textarea
+    id="message"
+    name="message"
+    rows="5"
+    placeholder="Tell us about your enquiry"
+    required
+></textarea>
+
+        <button type="submit">Send Enquiry</button>
+    </form>
+</section>
+
+<footer>
+    <h2>Croplink Trading Company</h2>
+    <p>Connecting crops to opportunity.</p>
+    <p>&copy; 2026 Croplink Trading Company. All rights reserved.</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
